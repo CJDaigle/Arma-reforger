@@ -1,0 +1,1 @@
+ArmaReforgerServer.exe -maxFPS 60 -AILimit 32 -logStats 10000 -profile "E:\SteamLibrary\steamapps\common\ArmaReforgerDir" -config ".\test1\test1.json"
