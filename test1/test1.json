@@ -1,0 +1,88 @@
+{
+	"bindAddress": "0.0.0.0",
+	"bindPort": 2001,
+	"publicAddress": "192.168.86.239",
+	"publicPort": 2001,
+	"a2s": {
+		"address": "192.168.86.239",
+		"port": 17777
+	},
+	"rcon": {
+		"address": "192.168.86.239",
+		"port": 19999,
+		"password": "password",
+		"permission": "monitor",
+		"blacklist": [],
+		"whitelist": []
+	},
+	"game": {
+		"name": "CJ's Arama Test1",
+		"password": "",
+		"passwordAdmin": "B4igetin",
+		"admins" : [
+            "76561197974187952"
+		],
+		"scenarioId": "{D5FCE4CD8185A90F}Missions/SniperValley.conf",
+		"maxPlayers": 3,
+		"visible": true,
+		"crossPlatform": false,
+		"supportedPlatforms": [
+			"PLATFORM_PC"
+		],
+		"gameProperties": {
+			"serverMaxViewDistance": 2500,
+			"serverMinGrassDistance": 50,
+			"networkViewDistance": 1000,
+			"disableThirdPerson": true,
+			"fastValidation": true,
+			"battlEye": true,
+			"VONDisableUI": true,
+			"VONDisableDirectSpeechUI": true,
+            "missionHeader": {}
+			
+		},
+		"mods": [
+            {
+                "modId": "598F29CA3E99EF0B",
+                "name": "Sniper-Stories-1",
+                "version": ""
+            },
+            {
+                "modId": "59D64ADD6FC59CBF",
+                "name": "Project Redline - UH-60",
+                "version": ""
+            },
+            {
+                "modId": "5DBD560C5148E1DA",
+                "name": "ACE Carrying",
+                "version": ""
+            },
+            {
+                "modId": "5AAAC70D754245DD",
+                "name": "Server Admin Tools",
+                "version": ""
+            },
+            {
+                "modId": "60C4CE4888FF4621",
+                "name": "ACE CORE",
+                "version": ""
+            },
+            {
+                "modId": "60C4C12DAE90727B",
+                "name": "ACE MEDCIAL",
+                "version": ""
+            },
+            {
+                "modId": "611CB1D409001EB0",
+                "name": "ACE Magazine Repack",
+                "version": ""
+            }
+		]
+	},
+	"operating": {
+		"lobbyPlayerSynchronise": true,
+        "joinQueue" : {
+            "maxSize" : 12
+        }
+	}
+}
