@@ -1,0 +1,128 @@
+{
+	"bindAddress": "0.0.0.0",
+	"bindPort": 7930,
+	"publicAddress": "136.175.187.97",
+	"publicPort": 7930,
+	"a2s": {
+		"address": "136.175.187.97",
+		"port": 7931
+	},
+	"rcon": {
+		"address": "136.175.187.97",
+		"port": 7932,
+		"password": "password",
+		"permission": "monitor",
+		"blacklist": [],
+		"whitelist": []
+	},
+	"game": {
+		"name": "CJ's Arma Reforger Overthrow Server",
+		"password": "bpm",
+		"passwordAdmin": "B4igetin",
+		"admins" : [
+            "76561197974187952","76561198133987336"
+		],
+		"scenarioId": "{7EF5001C8A3D295D}Missions/ZombieLand.conf",
+		"maxPlayers": 50,
+		"visible": true,
+		"crossPlatform": false,
+		"supportedPlatforms": [
+			"PLATFORM_PC"
+		],
+		"gameProperties": {
+			"serverMaxViewDistance": 1600,
+			"serverMinGrassDistance": 50,
+			"networkViewDistance": 1500,
+			"disableThirdPerson": false,
+			"fastValidation": true,
+			"battlEye": true,
+			"VONDisableUI": true,
+			"VONDisableDirectSpeechUI": true,
+            "missionHeader": {}
+			
+		},
+		"mods": [
+			{
+                "modId": "59673B6FBB95459F",
+                "name": "BetterTracers 2.0",
+                "version": ""
+            },
+			{
+                "modId": "60C4E0B49618CC62",
+                "name": "ACE ALL IN ONE",
+                "version": ""
+            },
+            {
+                "modId": "5AAAC70D754245DD",
+                "name": "Server Admin Tools",
+                "version": ""
+            },
+            {
+                "modId": "5965550F24A0C152",
+                "name": "Where Am I",
+                "version": ""
+            },
+			{
+                "modId": "59651354B2904BA6",
+                "name": "BetterHitsEffects 3.0 Alpha",
+                "version": ""
+            },
+			{
+                "modId": "6148039B7313C031",
+                "name": "WCS_Core",
+                "version": ""
+            },
+			{
+                "modId": "614D1A3874A23AD9",
+                "name": "WCS_Interface",
+                "version": ""
+            },
+			{
+                "modId": "614C00DA7F8765F6",
+                "name": "WCS_SpawnProtecti",
+                "version": ""
+            },
+			{
+				"modId": "612F512CD4CB21D5",
+                "name": "WCS_Earplugs",
+                "version": ""
+            },
+			{
+                "modId": "5D58A217A9611AFB",
+                "name": "Dead Everon",
+                "version": ""
+            },
+			{
+                "modId": "5D84C738432BFE6A",
+                "name": "WolfsBuildingPack",
+                "version": ""
+            },
+			{
+                "modId": "60A68ED7293C691A",
+                "name": "iRON79 Compositions",
+                "version": ""
+            },
+			{
+                "modId": "6206C7238516657B",
+                "name": "Crocells Workshop of Horrors",
+                "version": ""
+            },
+            {
+                "modId": "5C8540DA49BA6AFC",
+                "name": "Zeliks Loot Spawners",
+                "version": ""
+            },
+            {
+                "modId": "625685D82F05A889",
+                "name": "SpearHead Zombies Operations",
+                "version": ""
+            }
+		]
+	},
+	"operating": {
+		"lobbyPlayerSynchronise": true,
+        "joinQueue" : {
+            "maxSize" : 12
+        }
+	}
+}
