@@ -91,7 +91,43 @@
                 "modId": "59A30ACC02650E71",
                 "name": "Night Vision System",
                 "version": ""
+            },
+            {
+                "modId": "629402C6703BF3A1",
+                "name": "Conflict Arsenal",
+                "version": ""
+            },
+            {
+                "modId": "595F2BF2F44836FB",
+                "name": "RHS - Status Quo",
+                "version": ""
+            },
+            {
+                "modId": "60C4E0B49618CC62",
+                "name": "ACE ALL IN ONE",
+                "version": ""
+            },
+            {
+                "modId": "5C721177A220B42F",
+                "name": "Joint Light Tactical Vehicle",
+                "version": ""
+            },
+            {
+                "modId": "5E389BB9F58B79A6",
+                "name": "SpaceCore",
+                "version": ""
+            },
+            {
+                "modId": "629B2BA37EFFD577",
+                "name": "WCS_Armament",
+                "version": ""
+            },
+            {
+                "modId": "612F512CD4CB21D5",
+                "name": "WCS_Earplugs",
+                "version": ""
             }
+
 		]
 	},
 	"operating": {
